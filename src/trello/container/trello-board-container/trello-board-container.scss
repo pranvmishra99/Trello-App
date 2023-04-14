@@ -1,0 +1,17 @@
+.board-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 100%;
+  padding: 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.board-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #172b4d;
+}
